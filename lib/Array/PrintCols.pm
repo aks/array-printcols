@@ -20,7 +20,7 @@
 
 package Array::PrintCols;
 
-$VERSION = '2.4';
+$VERSION = '2.5';
 
 require 5.001;
 

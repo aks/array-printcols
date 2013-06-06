@@ -22,7 +22,7 @@ my $build = Module::Build->new
     module_name        => 'Array::PrintCols',
     license	       => 'gpl',
     dist_author	       => ['Alan K. Stebbens <aks@stebbens.org>'],
-    dist_version       => '2.4',
+    dist_version_from  => 'PrintCols.pm',
     dist_abstract      => <<ABSTRACT,
 Format or print values from an array or hash in one or more sorted, vertical columns.
 ABSTRACT
