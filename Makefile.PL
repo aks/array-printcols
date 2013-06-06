@@ -3,13 +3,13 @@ use ExtUtils::MakeMaker;
 WriteMakefile
 (
   'INSTALLDIRS' => 'site',
-  'PL_FILES' => {},
-  'VERSION_FROM' => 'lib/Array/PrintCols.pm',
-  'EXE_FILES' => [],
-  'NAME' => 'Array::PrintCols',
   'PREREQ_PM' => {
                    'Carp' => 0,
                    'File::ShareDir' => '1.00'
-                 }
+                 },
+  'VERSION_FROM' => 'lib/Array/PrintCols.pm',
+  'PL_FILES' => {},
+  'NAME' => 'Array::PrintCols',
+  'EXE_FILES' => []
 )
 ;

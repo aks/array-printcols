@@ -8,3 +8,5 @@ t\.pl$
 ^MYMETA\.(yml|json)$
 ^Build$
 ^Makefile$
+.*\.tar\.gz$
+.*\.shar$
