@@ -45,6 +45,10 @@ $PreSorted = 1;			# if set, do not need to sort
 #
 # format_cols \@array [, -$columns [, $total_width, [, $indent ] ] ]
 #
+# or
+#
+# format_cols \%hash [, -$columns [, $total_width, [, $indent ] ] ]
+#
 #
 # This used to be "print_cols", which always sent everything to STDOUT.
 # Now, the work is done in "format_cols", which returns a string result.
@@ -55,8 +59,9 @@ $PreSorted = 1;			# if set, do not need to sort
 
 sub format_cols($;@) {
     my($array)       = shift;
-    $array = \@$array if ref($array) eq 'REF';
-    ref($array) eq 'ARRAY' or croak "arg 1 must be an ARRAY or ARRAYREF\n";
+    $array = $$array if ref($array) eq 'REF';
+    $array = [sort(keys(%$array))] if ref($array) eq 'HASH';
+    ref($array) eq 'ARRAY' or croak "arg 1 must be an ARRAY, HASH, or ARRAYREF\n";
     my($col_width)   = shift || 0;
     my($total_width) = shift || $ENV{'COLUMNS'} || 80;
     my($indent)      = shift || 0;
@@ -139,7 +144,7 @@ C<print_cols \@I<array>, $I<colspec>, $I<total_width>;>
 
 C<print_cols \@I<array>, $I<colspec>, $I<total_width>, $I<indent>;>
 
-	     \@I<array> may also be an $I<array_ref>
+	     \@I<array> may also be an ARRAYREF, HASH, or HASHREF.
 
 $I<output> = C<format_cols> <same arguments as C<print_cols>>;
 
@@ -152,13 +157,16 @@ This module exports two subroutine names: C<print_cols> and
 C<format_cols>.
 
 The C<print_cols> subroutine prints the items of C<@I<array>> in
-multiple, alphabetically & vertically sorted columns.  One, two,
-or three optional arguments may be given to C<print_cols> to
-control the width and number of the columns, the total width of
-the output, and indentation.  Reasonable defaults apply in the
-absence of the optional arguments (or when given as the empty
-string or zero).  Generally, the minimum width column is used when
-possible.
+multiple, alphabetically & vertically sorted columns.  In the case
+of the first argument being a HASH or HASHREF, only the keys of
+the hash are considered.
+
+One, two, or three optional arguments may be given to
+C<print_cols> to control the width and number of the columns, the
+total width of the output, and indentation.  Reasonable defaults
+apply in the absence of the optional arguments (or when given as
+the empty string or zero).  Generally, the minimum width column is
+used when possible.
 
 If C<$I<colspec>> is given as a non-negative number, it is treated
 as the minimum width of the column; the actual width will be the
@@ -201,11 +209,11 @@ the real work.
 
 =head1 AUTHOR
 
-Copyright (C) 1995-2013  Alan K. Stebbens <aks@stebbens.org>
+Copyright (C) 1996-2013  Alan K. Stebbens <aks@stebbens.org>
 
-This program is free software; you can redistribute it and/or modify
+This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
+the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 
 This program is distributed in the hope that it will be useful,
@@ -214,8 +222,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 =head1 BUGS
 

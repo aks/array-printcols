@@ -1,202 +1,1219 @@
 Test 13: 200 words with column width of 15
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
-0                WITH             explicit         prevent          
-02139            WITHOUT          expressly        price            
-1                WRITING          extend           print            
-10               We               fee              problems         
-11               When             file             program          
-12               Whether          files            program's        
-1989             YOU              follow           programmer       
-1991             You              following        programs         
-19yy             Your             for              prohibited       
-2                Yoyodyne         forbid           prominent        
-3                a                form             promoting        
-4                above            forming          property         
-5                absence          found            proprietary      
-6                accept           free             protect          
-675              acceptance       freedom          protecting       
-69               access           from             protection       
-7                accompanies      full             provide          
-8                accord           further          provided         
-9                achieve          generally        public           
-A                act              generous         publish          
-ABOVE            actions          geographical     published        
-ABSOLUTELY       add              get              purpose          
-ADVISED          addition         give             range            
-AGREED           address          given            rather           
-ALL              addressed        gives            reads            
-AND              aggregation      goals            reason           
-AND/OR           agreement        granted          reasonably       
-ANY              all              grants           receive          
-APPLICABLE       allegation       gratis           received         
-ARISING          allowed          greatest         receives         
-AS               along            guarantee        recipient        
-ASSUME           also             guided           recipients       
-Accompany        alter            has              redistribute     
-Activities       alternative      have             redistribution   
-Also             among            having           redistributors   
-And              an               he               refer            
-Any              and              held             referring        
-Apply            and/or           hereby           refers           
-April            announcement     herein           reflect          
-Ave              another          holder           refrain          
-BE               any              hope             regardless       
-BECAUSE          anyone           how              reliance         
-BEEN             anything         hypothetical     remain           
-BEING            application      idea             reputations      
-BUT              applications     identifiable     required         
-BY               applies          if               requirements     
-But              apply            implemented      responsibilities 
-By               appropriate      implied          responsible      
-C                appropriately    impose           rest             
-CHARGE           are              imposed          restricted       
-CONDITIONS       as               in               restrictions     
-CONSEQUENTIAL    ask              include          reuse            
-COPYING          associated       included         revised          
-COPYRIGHT        at               including        right            
-CORRECTION       attach           incorporate      rights           
-COST             attempt          incorporates     royalty-free     
-Cambridge        author           incorporating    run              
-Coon             author's         independent      running          
-Copyright        author/donor     indicate         runs             
-DAMAGES          authors          indirectly       safest           
-DATA             automatically    individually     same             
-DEFECTIVE        avoid            induce           sample           
-DISTRIBUTION     away             information      satisfy          
-EITHER           b                infringe         say              
-END              balance          infringement     saying           
-ENTIRE           based            installation     school           
-EVEN             be               instead          scope            
-EVENT            been             intact           scripts          
-EXCEPT           believed         integrity        section          
-EXPRESSED        below            intended         sections         
-EXTENT           best             intent           separate         
-Each             binary           interactive      service          
-Everyone         body             interactively    share            
-Exception        both             interchange      sharing          
-FAILURE          brief            interest         she              
-FITNESS          bring            interface        short            
-FOR              but              interfaces       should           
-FREE             by               into             show             
-Finally          c                introduced       sign             
-For              called           invalid          signature        
-Foundation       can              is               signed           
-Foundation's     cannot           issues           similar          
-Free             carry            it               simultaneously   
-GENERAL          case             items--whatever  since            
-GNU              cause            its              so               
-General          certain          itself           software         
-Gnomovision      change           judgment         software--to     
-HAS              changed          keep             sole             
-HOLDER           changing         kernel           someone          
-HOLDERS          charge           know             something        
-Hacker           choice           language         sometimes        
-Here             choose           later            source           
-Hereinafter      circumstance     law              speak            
-How              circumstances    least            special          
-However          claim            legal            specifies        
-IF               claims           library          specify          
-IMPLIED          clear            license          spirit           
-IN               code             licensed         start            
-INABILITY        collective       licensee         started          
-INACCURATE       comes            licensees        starts           
-INCIDENTAL       commands         licenses         stating          
-INCLUDING        commit           licensor         status           
-IS               compelled        like             steps            
-If               compilation      limitation       storage          
-In               compiler         limited          subject          
-Inc              compilers        line             sublicense       
-It               complete         linking          subroutine       
-James            compliance       long             such             
-June             component        machine-readable suits            
-KIND             components       made             sure             
-LAW              concerns         mail             surrender        
-LIABLE           conditions       major            system           
-LICENSE          consequence      make             take             
-LICENSED         consider         makes            telling          
-LIMITED          considered       making           term             
-LOSS             consistent       may              terminate        
-LOSSES           conspicuously    means            terminated       
-Library          constantly       medium           terms            
-License          constitute       meet             than             
-Licenses         contact          menu             that             
-MA               containing       mere             the              
-MAY              contains         mode             their            
-MERCHANTABILITY  contents         modification     them             
-MODIFICATION     contest          modifications    themselves       
-MODIFY           contradict       modified         then             
-Many             contrast         modify           there            
-Mass             contributions    modifying        thereof          
-NECESSARY        control          modules          these            
-NO               convey           more             they             
-NOT              copies           most             things           
-New              copy             mouse-clicks     third            
-OF               copying          must             this             
-OPERATE          copyright        name             thoroughly       
-OR               copyrighted      names            those            
-OTHER            corresponding    necessary        though           
-OTHERWISE        cost             need             threatened       
-OUT              could            new              three            
-Of               countries        no               through          
-Our              counts           noncommercial    thus             
-PARTICULAR       course           normally         time             
-PARTIES          court            not              to               
-PARTY            covered          nothing          too              
-PERFORMANCE      customarily      notice           transferring     
-PERMITTED        danger           notices          translate        
-POSSIBILITY      date             number           translated       
-PROGRAM          decide           object           translation      
-PROGRAMS         decision         obligations      true             
-PROVE            definition       obtain           two              
-PROVIDE          deny             of               type             
-PUBLIC           depends          offer            under            
-PURPOSE          derivative       offering         understands      
-Preamble         derivatives      on               unenforceable    
-President        derived          one              unless           
-Program          designated       only             up               
-Program's        designed         operating        use              
-Programs         detail           option           used             
-Public           details          or               useful           
-QUALITY          develop          order            user             
-REDISTRIBUTE     differ           ordinary         users            
-RENDERED         different        original         using            
-REPAIR           directly         other            valid            
-REQUIRED         disclaimer       others           validity         
-RISK             disclaims        otherwise        verbatim         
-SERVICING        display          our              version          
-SHOULD           distinguishing   ours             versions         
-SPECIAL          distribute       output           view             
-STATED           distributed      outside          void             
-SUCH             distributing     paper            volume           
-SUSTAINED        distribution     part             w                
-Section          do               particular       want             
-Sections         document         parties          warranty         
-See              does             parts            way              
-Software         each             party            we               
-Some             effect           passed           welcome          
-Subsection       effectively      passes           what             
-Such             either           patent           when             
-TERMS            electronic       patents          where            
-THE              else             people           whether          
-THERE            employer         performing       which            
-THIRD            enforcing        permission       who              
-TO               entire           permissions      whole            
-Terms            entirely         permit           whose            
-The              equivalent       permitted        wide             
-Therefore        even             pertinent        will             
-These            ever             physical         willing          
-This             every            physically       wish             
-Thus             everyone         pieces           with             
-To               everyone's       place            without          
-Ty               example          placed           work             
-UNLESS           except           places           works            
-USA              exception        plus             would            
-USE              exceptions       pointer          write            
-Version          exchange         portion          written          
-Vice             excluded         possible         wrote            
-WARRANTIES       excluding        practices        years            
-WARRANTY         exclusion        precise          you              
-WHEN             excuse           preferred        your             
-WHO              executable       present          
-WILL             exercise         preserving       
+0                                               
+1                                               
+10                                              
+11                                              
+12                                              
+13                                              
+14                                              
+15                                              
+16                                              
+17                                              
+1996                                            
+2                                               
+20                                              
+2007                                            
+28                                              
+29                                              
+3                                               
+30                                              
+4                                               
+5                                               
+6                                               
+60                                              
+6b                                              
+6d                                              
+7                                               
+8                                               
+9                                               
+A                                               
+ABOVE                                           
+ABSOLUTELY                                      
+ADVISED                                         
+AGREED                                          
+ALL                                             
+AND                                             
+AND/OR                                          
+ANY                                             
+APPLICABLE                                      
+ARISING                                         
+AS                                              
+ASSUME                                          
+Acceptance                                      
+Access                                          
+Additional                                      
+Affero                                          
+All                                             
+Also                                            
+An                                              
+Ancillary                                       
+And                                             
+Anti-Circumvention                              
+Any                                             
+Apply                                           
+Appropriate                                     
+Automatic                                       
+BE                                              
+BEEN                                            
+BEING                                           
+BUT                                             
+BY                                              
+Basic                                           
+But                                             
+By                                              
+C                                               
+CONDITIONS                                      
+CONSEQUENTIAL                                   
+CONVEYS                                         
+COPYRIGHT                                       
+CORRECTION                                      
+COST                                            
+Code                                            
+Component                                       
+Convey                                          
+Conveying                                       
+Copies                                          
+Copyright                                       
+Corresponding                                   
+DAMAGES                                         
+DATA                                            
+DEFECTIVE                                       
+December                                        
+Declining                                       
+Definitions                                     
+Developers                                      
+Disclaimer                                      
+Disclaiming                                     
+Downstream                                      
+EITHER                                          
+END                                             
+ENTIRE                                          
+EVEN                                            
+EVENT                                           
+EXCEPT                                          
+EXPRESSED                                       
+EXTENT                                          
+Each                                            
+Everyone                                        
+FAILURE                                         
+FITNESS                                         
+FOR                                             
+Finally                                         
+For                                             
+Forms                                           
+Foundation                                      
+Free                                            
+Freedom                                         
+From                                            
+GENERAL                                         
+GNU                                             
+GPL                                             
+GPL-3.0                                         
+GUI                                             
+General                                         
+HAS                                             
+HOLDER                                          
+HOLDERS                                         
+Having                                          
+How                                             
+However                                         
+IF                                              
+IMPLIED                                         
+IN                                              
+INABILITY                                       
+INACCURATE                                      
+INCIDENTAL                                      
+INCLUDING                                       
+IS                                              
+If                                              
+In                                              
+Inc                                             
+Inclusion                                       
+Information                                     
+Installation                                    
+Interface                                       
+Interpretation                                  
+It                                              
+June                                            
+KIND                                            
+Knowingly                                       
+LAW                                             
+LIABLE                                          
+LICENSE                                         
+LIMITED                                         
+LOSS                                            
+LOSSES                                          
+Later                                           
+Law                                             
+Legal                                           
+Lesser                                          
+Liability                                       
+Libraries                                       
+Library                                         
+License                                         
+Licensees                                       
+Licenses                                        
+Licensing                                       
+Limitation                                      
+Limiting                                        
+MERCHANTABILITY                                 
+MODIFIES                                        
+Major                                           
+March                                           
+Mere                                            
+Modified                                        
+Moreover                                        
+NECESSARY                                       
+NO                                              
+NOT                                             
+New                                             
+No                                              
+Non-Source                                      
+Not                                             
+Nothing                                         
+Notices                                         
+Notwithstanding                                 
+OF                                              
+OPERATE                                         
+OR                                              
+OTHER                                           
+OTHERWISE                                       
+OUT                                             
+Object                                          
+Of                                              
+Others                                          
+Our                                             
+PARTICULAR                                      
+PARTIES                                         
+PARTY                                           
+PERFORMANCE                                     
+PERMITTED                                       
+POSSIBILITY                                     
+PROGRAM                                         
+PROGRAMS                                        
+PROVE                                           
+PROVIDE                                         
+PUBLIC                                          
+PURPOSE                                         
+Patents                                         
+Permissions                                     
+Preamble                                        
+Product                                         
+Program                                         
+Program's                                       
+Programs                                        
+Prohibiting                                     
+Propagation                                     
+Protecting                                      
+Public                                          
+QUALITY                                         
+RENDERED                                        
+REPAIR                                          
+REQUIRED                                        
+RISK                                            
+ROM                                             
+Recipients                                      
+Regardless                                      
+Required                                        
+Requiring                                       
+Revised                                         
+Rights                                          
+SERVICING                                       
+SHOULD                                          
+SPECIAL                                         
+STATED                                          
+SUCH                                            
+SUSTAINED                                       
+Sections                                        
+See                                             
+Software                                        
+Some                                            
+Source                                          
+Standard                                        
+States                                          
+Sublicensing                                    
+Such                                            
+Surrender                                       
+System                                          
+TERMS                                           
+THE                                             
+THERE                                           
+THIRD                                           
+TO                                              
+Termination                                     
+Terms                                           
+The                                             
+Therefore                                       
+These                                           
+This                                            
+Those                                           
+To                                              
+UNLESS                                          
+USE                                             
+Use                                             
+User                                            
+Users                                           
+Verbatim                                        
+Version                                         
+Versions                                        
+WARRANTIES                                      
+WARRANTY                                        
+WHEN                                            
+WHO                                             
+WILL                                            
+WIPO                                            
+WITH                                            
+WITHOUT                                         
+WRITING                                         
+Warranty                                        
+We                                              
+When                                            
+YOU                                             
+You                                             
+Your                                            
+a                                               
+ability                                         
+about                                           
+above                                           
+absence                                         
+absolute                                        
+abuse                                           
+accept                                          
+acceptance                                      
+access                                          
+accessible                                      
+accompanied                                     
+accompanies                                     
+accord                                          
+according                                       
+achieve                                         
+acknowledges                                    
+acquired                                        
+across                                          
+actions                                         
+activities                                      
+activity                                        
+actual                                          
+actually                                        
+adapt                                           
+add                                             
+added                                           
+additional                                      
+address                                         
+addressed                                       
+adopted                                         
+adversely                                       
+affects                                         
+affirmed                                        
+affirms                                         
+after                                           
+against                                         
+aggregate                                       
+agree                                           
+agreement                                       
+aim                                             
+all                                             
+alleging                                        
+allow                                           
+allowed                                         
+along                                           
+already                                         
+also                                            
+alternative                                     
+although                                        
+among                                           
+an                                              
+and                                             
+and/or                                          
+any                                             
+anyone                                          
+anything                                        
+applicable                                      
+applications                                    
+applied                                         
+applies                                         
+apply                                           
+appropriate                                     
+appropriately                                   
+approximates                                    
+are                                             
+area                                            
+arise                                           
+arrange                                         
+arrangement                                     
+article                                         
+as                                              
+asking                                          
+assert                                          
+assets                                          
+associated                                      
+assumption                                      
+assumptions                                     
+assures                                         
+at                                              
+attach                                          
+attempt                                         
+attributed                                      
+attributions                                    
+author                                          
+authorization                                   
+authorized                                      
+authorizes                                      
+authorizing                                     
+authors                                         
+automatically                                   
+available                                       
+avoid                                           
+away                                            
+b                                               
+based                                           
+be                                              
+because                                         
+been                                            
+behalf                                          
+being                                           
+believe                                         
+below                                           
+benefit                                         
+best                                            
+between                                         
+beyond                                          
+body                                            
+both                                            
+box                                             
+brief                                           
+business                                        
+but                                             
+by                                              
+c                                               
+called                                          
+can                                             
+cannot                                          
+carry                                           
+case                                            
+cases                                           
+cause                                           
+cease                                           
+certain                                         
+cessation                                       
+change                                          
+changed                                         
+changing                                        
+characterized                                   
+charge                                          
+choose                                          
+choosing                                        
+circumstances                                   
+circumvention                                   
+civil                                           
+claim                                           
+claims                                          
+class                                           
+clear                                           
+clearly                                         
+closely                                         
+code                                            
+collect                                         
+combination                                     
+combine                                         
+combined                                        
+comes                                           
+commands                                        
+commercial                                      
+commitment                                      
+common                                          
+communication                                   
+compilation                                     
+compilation's                                   
+compilations                                    
+compiler                                        
+compliance                                      
+comply                                          
+component                                       
+computer                                        
+computers                                       
+concerning                                      
+concerns                                        
+conditioned                                     
+conditions                                      
+connection                                      
+consequence                                     
+consider                                        
+considered                                      
+consistent                                      
+conspicuously                                   
+constantly                                      
+constitutes                                     
+construed                                       
+consumer                                        
+contact                                         
+contain                                         
+containing                                      
+contains                                        
+content                                         
+contents                                        
+context                                         
+continue                                        
+continued                                       
+contractual                                     
+contradict                                      
+contrast                                        
+contributor                                     
+contributor's                                   
+control                                         
+controlled                                      
+convenient                                      
+convey                                          
+conveyance                                      
+conveyed                                        
+conveying                                       
+conveys                                         
+copies                                          
+copy                                            
+copying                                         
+copyleft                                        
+copyright                                       
+copyright-like                                  
+copyrightable                                   
+copyrighted                                     
+cost                                            
+could                                           
+counterclaim                                    
+countries                                       
+country                                         
+course                                          
+court                                           
+courts                                          
+covenant                                        
+coverage                                        
+covered                                         
+criterion                                       
+cross-claim                                     
+cure                                            
+customarily                                     
+customer                                        
+d                                               
+danger                                          
+data                                            
+date                                            
+days                                            
+decide                                          
+deemed                                          
+defenses                                        
+defined                                         
+definition                                      
+denied                                          
+denominated                                     
+deny                                            
+denying                                         
+deprive                                         
+designated                                      
+designed                                        
+detail                                          
+details                                         
+determining                                     
+develop                                         
+developers                                      
+development                                     
+devices                                         
+differ                                          
+different                                       
+differently                                     
+direction                                       
+directions                                      
+directly                                        
+disclaim                                        
+disclaimer                                      
+discriminatory                                  
+display                                         
+displayed                                       
+displays                                        
+distinguishing                                  
+distribute                                      
+distributed                                     
+distributing                                    
+distribution                                    
+do                                              
+document                                        
+documented                                      
+does                                            
+domains                                         
+doubtful                                        
+downstream                                      
+durable                                         
+dwelling                                        
+dynamically                                     
+e                                               
+each                                            
+earlier                                         
+effect                                          
+effected                                        
+effective                                       
+effectively                                     
+efforts                                         
+either                                          
+electronic                                      
+embodied                                        
+employer                                        
+enable                                          
+enables                                         
+enforce                                         
+enforcing                                       
+ensure                                          
+entered                                         
+entire                                          
+entirely                                        
+entity                                          
+equivalent                                      
+erroneously                                     
+essential                                       
+even                                            
+ever                                            
+every                                           
+everyone                                        
+exact                                           
+example                                         
+except                                          
+exceptions                                      
+excluded                                        
+excluding                                       
+exclusion                                       
+exclusively                                     
+excuse                                          
+executable                                      
+execute                                         
+executing                                       
+exercise                                        
+exercising                                      
+expected                                        
+expects                                         
+explains                                        
+explicitly                                      
+express                                         
+expressly                                       
+extend                                          
+extended                                        
+extensions                                      
+extent                                          
+f                                               
+facilities                                      
+fails                                           
+fair                                            
+family                                          
+fashion                                         
+favor                                           
+feature                                         
+fee                                             
+file                                            
+files                                           
+finally                                         
+find                                            
+first                                           
+fixed                                           
+flow                                            
+follow                                          
+following                                       
+for                                             
+forbid                                          
+force                                           
+form                                            
+format                                          
+found                                           
+free                                            
+freedom                                         
+freedoms                                        
+from                                            
+fulfilling                                      
+full                                            
+functioning                                     
+fundamentally                                   
+further                                         
+future                                          
+general                                         
+general-purpose                                 
+generally                                       
+generate                                        
+get                                             
+give                                            
+given                                           
+gives                                           
+giving                                          
+governed                                        
+grant                                           
+granted                                         
+grants                                          
+gratis                                          
+greatest                                        
+guarantee                                       
+had                                             
+has                                             
+have                                            
+having                                          
+hereafter                                       
+holder                                          
+holders                                         
+hope                                            
+hosts                                           
+household                                       
+how                                             
+however                                         
+http://fsf.org                                  
+http://www.gnu.org/licenses                     
+http://www.gnu.org/philosophy/why-not-lgpl.html 
+hypothetical                                    
+idea                                            
+identifiable                                    
+if                                              
+implement                                       
+implementation                                  
+implied                                         
+import                                          
+importing                                       
+impose                                          
+imposed                                         
+in                                              
+include                                         
+included                                        
+includes                                        
+including                                       
+incompatible                                    
+incorporating                                   
+incorporation                                   
+indemnification                                 
+independent                                     
+indicate                                        
+indicating                                      
+individual                                      
+individuals                                     
+industrial                                      
+inform                                          
+information                                     
+infringe                                        
+infringed                                       
+infringement                                    
+initiate                                        
+inside                                          
+install                                         
+installed                                       
+instead                                         
+intact                                          
+intended                                        
+intention                                       
+interaction                                     
+interactive                                     
+interchange                                     
+interest                                        
+interface                                       
+interfaces                                      
+interfered                                      
+interpreter                                     
+intimate                                        
+into                                            
+invalidate                                      
+irrevocable                                     
+is                                              
+it                                              
+item                                            
+its                                             
+itself                                          
+keep                                            
+kernel                                          
+key                                             
+keys                                            
+kind                                            
+kinds                                           
+know                                            
+knowingly                                       
+knowledge                                       
+language                                        
+larger                                          
+later                                           
+law                                             
+laws                                            
+lawsuit                                         
+least                                           
+legal                                           
+liability                                       
+liable                                          
+libraries                                       
+library                                         
+license                                         
+licensed                                        
+licensee                                        
+licensees                                       
+licenses                                        
+licensors                                       
+like                                            
+likewise                                        
+limit                                           
+limitation                                      
+limiting                                        
+line                                            
+link                                            
+linked                                          
+linking                                         
+list                                            
+litigation                                      
+local                                           
+long                                            
+machine-readable                                
+made                                            
+mail                                            
+maintain                                        
+major                                           
+make                                            
+makes                                           
+making                                          
+manner                                          
+manufacturer                                    
+marked                                          
+marks                                           
+masks                                           
+material                                        
+materially                                      
+may                                             
+meaning                                         
+means                                           
+measure                                         
+measures                                        
+medium                                          
+meet                                            
+meets                                           
+menu                                            
+merging                                         
+met                                             
+methods                                         
+might                                           
+misrepresentation                               
+mode                                            
+model                                           
+modification                                    
+modifications                                   
+modified                                        
+modifies                                        
+modify                                          
+modifying                                       
+more                                            
+most                                            
+must                                            
+name                                            
+names                                           
+nature                                          
+necessary                                       
+need                                            
+needed                                          
+neither                                         
+network                                         
+new                                             
+next                                            
+no                                              
+non-consumer                                    
+non-exclusive                                   
+non-exercise                                    
+non-free                                        
+non-permissive                                  
+non-source                                      
+noncommercially                                 
+nor                                             
+normal                                          
+normally                                        
+not                                             
+nothing                                         
+notice                                          
+notices                                         
+notifies                                        
+notify                                          
+number                                          
+numbered                                        
+object                                          
+obligate                                        
+obligated                                       
+obligations                                     
+occasionally                                    
+occurring                                       
+occurs                                          
+of                                              
+offer                                           
+offered                                         
+offering                                        
+official                                        
+on                                              
+one                                             
+only                                            
+operated                                        
+operating                                       
+operation                                       
+option                                          
+options                                         
+or                                              
+order                                           
+organization                                    
+organizations                                   
+origin                                          
+original                                        
+other                                           
+others                                          
+otherwise                                       
+our                                             
+output                                          
+outside                                         
+own                                             
+owned                                           
+packaged                                        
+packaging                                       
+paper                                           
+paragraph                                       
+paragraphs                                      
+part                                            
+particular                                      
+parties                                         
+parts                                           
+party                                           
+party's                                         
+pass                                            
+password                                        
+patent                                          
+patents                                         
+pattern                                         
+payment                                         
+peer-to-peer                                    
+peers                                           
+performing                                      
+permanently                                     
+permission                                      
+permissions                                     
+permissive                                      
+permit                                          
+permits                                         
+permitted                                       
+perpetuity                                      
+personal                                        
+pertinent                                       
+physical                                        
+physically                                      
+pieces                                          
+place                                           
+please                                          
+plus                                            
+pointer                                         
+portion                                         
+possesses                                       
+possession                                      
+possible                                        
+power                                           
+practical                                       
+practice                                        
+precise                                         
+precisely                                       
+predecessor                                     
+preferred                                       
+present                                         
+presents                                        
+preservation                                    
+prevent                                         
+prevented                                       
+previous                                        
+price                                           
+primarily                                       
+prior                                           
+private                                         
+problems                                        
+procedures                                      
+procuring                                       
+produce                                         
+product                                         
+products                                        
+program                                         
+program's                                       
+program--to                                     
+programmer                                      
+programming                                     
+programs                                        
+prohibit                                        
+prohibiting                                     
+prohibits                                       
+prominent                                       
+prominently                                     
+propagate                                       
+propagating                                     
+propagation                                     
+property                                        
+proprietary                                     
+protect                                         
+protecting                                      
+protection                                      
+protocols                                       
+provide                                         
+provided                                        
+provision                                       
+provisionally                                   
+proxy                                           
+proxy's                                         
+public                                          
+publicity                                       
+publicly                                        
+publish                                         
+published                                       
+purpose                                         
+purposes                                        
+pursuant                                        
+qualify                                         
+read                                            
+readily                                         
+reading                                         
+ready                                           
+reason                                          
+reasonable                                      
+receipt                                         
+receive                                         
+received                                        
+receives                                        
+receiving                                       
+recipient                                       
+recipient's                                     
+recipients                                      
+recognized                                      
+redistribute                                    
+referring                                       
+refers                                          
+refrain                                         
+regard                                          
+regardless                                      
+regenerate                                      
+reinstated                                      
+relationship                                    
+released                                        
+relevant                                        
+relicensing                                     
+relying                                         
+remain                                          
+remains                                         
+removal                                         
+remove                                          
+render                                          
+represent                                       
+require                                         
+required                                        
+requirement                                     
+requirements                                    
+requires                                        
+requiring                                       
+resolved                                        
+respect                                         
+responsibilities                                
+responsible                                     
+restrict                                        
+restricting                                     
+restriction                                     
+restrictions                                    
+result                                          
+resulting                                       
+results                                         
+retains                                         
+return                                          
+reviewing                                       
+revised                                         
+right                                           
+rights                                          
+royalty                                         
+royalty-free                                    
+rules                                           
+run                                             
+running                                         
+runs                                            
+safest                                          
+sake                                            
+sale                                            
+same                                            
+satisfy                                         
+saying                                          
+school                                          
+scope                                           
+scripts                                         
+secondarily                                     
+section                                         
+sections                                        
+see                                             
+sell                                            
+selling                                         
+semiconductor                                   
+separable                                       
+separate                                        
+separately                                      
+server                                          
+serves                                          
+service                                         
+shall                                           
+share                                           
+shared                                          
+short                                           
+should                                          
+show                                            
+sign                                            
+significant                                     
+similar                                         
+simultaneously                                  
+single                                          
+so                                              
+software                                        
+sold                                            
+sole                                            
+solely                                          
+some                                            
+source                                          
+spare                                           
+speak                                           
+special                                         
+specific                                        
+specifically                                    
+specified                                       
+specifies                                       
+specify                                         
+spirit                                          
+stand                                           
+standard                                        
+standards                                       
+start                                           
+starts                                          
+state                                           
+stated                                          
+statement                                       
+stating                                         
+status                                          
+steps                                           
+storage                                         
+subdividing                                     
+subject                                         
+sublicenses                                     
+subprograms                                     
+subroutine                                      
+subsection                                      
+substantial                                     
+substantially                                   
+such                                            
+sue                                             
+suffice                                         
+supplement                                      
+support                                         
+supports                                        
+sure                                            
+surrender                                       
+survive                                         
+system                                          
+systematic                                      
+take                                            
+tangible                                        
+technological                                   
+tells                                           
+term                                            
+terminal                                        
+terminate                                       
+terminated                                      
+terminates                                      
+terms                                           
+than                                            
+that                                            
+the                                             
+their                                           
+them                                            
+then                                            
+there                                           
+therefore                                       
+these                                           
+they                                            
+things                                          
+third                                           
+this                                            
+those                                           
+though                                          
+threatened                                      
+three                                           
+through                                         
+thus                                            
+time                                            
+to                                              
+too                                             
+tools                                           
+trade                                           
+trademark                                       
+trademarks                                      
+transaction                                     
+transfer                                        
+transferred                                     
+transferring                                    
+transmission                                    
+treated                                         
+treaty                                          
+two                                             
+type                                            
+typical                                         
+unacceptable                                    
+under                                           
+unless                                          
+unlimited                                       
+unmodified                                      
+unnecessary                                     
+unpacking                                       
+until                                           
+updates                                         
+use                                             
+used                                            
+useful                                          
+user                                            
+users                                           
+uses                                            
+using                                           
+valid                                           
+verbatim                                        
+version                                         
+versions                                        
+view                                            
+violates                                        
+violation                                       
+visible                                         
+void                                            
+volume                                          
+w                                               
+waive                                           
+waiver                                          
+want                                            
+warranties                                      
+warranty                                        
+was                                             
+way                                             
+ways                                            
+we                                              
+welcome                                         
+well                                            
+were                                            
+what                                            
+whatever                                        
+when                                            
+where                                           
+whether                                         
+which                                           
+who                                             
+whole                                           
+whom                                            
+whose                                           
+widely                                          
+will                                            
+window                                          
+wish                                            
+with                                            
+within                                          
+without                                         
+work                                            
+work's                                          
+working                                         
+works                                           
+worldwide                                       
+would                                           
+written                                         
+year                                            
+years                                           
+you                                             
+your                                            
+yourself                                        
 12345678901234567890123456789012345678901234567890123456789012345678901234567890

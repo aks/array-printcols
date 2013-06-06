@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/bin/perl -Iblib -Iblib/lib
 # test program for Array::PrintCols.pm
 #
 # test.pl [-n[o-compare]]
@@ -19,29 +19,56 @@
 #    along with this program; if not, write to the Free Software
 #    Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
 #
-# $Id: test.pl,v 2.3 2005/03/02 05:30:18 Alan Exp $
 
 BEGIN { unshift(@INC, '.'); }
 
-use Test::More tests => 36;	# BE SURE TO UPDATE WITH NEW TESTS
+use Test::More;
 
 use Array::PrintCols;
+
+sub usage() {
+  print STDERR <<EOF;
+usage: test.pl [-n] [-f FIRSTTEST] [-l LASTTEST]
+Run various tests on print_cols.
+
+Options:
+  -h        This help
+  -n	    Don't do comparisons; generate all the reference files
+  -f FIRST  Run tests beginning with FIRST
+  -l LAST   Run tests up to LAST
+EOF
+  exit 1;
+}
 
 $ENV{'COLUMNS'} = 80;	# hard code to guarantee consistency
 
 $NUMBERS = ("1234567890" x 8)."\n";
 
-$Test_Num = 0;
+$Tests_Run = 0;
+$FirstTest = '';
+$LastTest = '';
 
-sub start_test($) {
-   $Test_Num++;				# next test number
-   $The_Title = shift;
-   $The_Out = sprintf "tests/%d.out", $Test_Num;
-   $The_Ref = sprintf "tests/%d.ref", $Test_Num;
-   open(SAVESTDOUT, ">&STDOUT") or die "Can't save STDOUT: $!\n";
-   open(STDOUT, ">$The_Out") or die "Can't open-write to $The_Out: $!\n";
-   printf "Test %d: %s\n", $Test_Num, $The_Title;
-   print $NUMBERS;
+# return true if TESTNUM argument is within the
+# defined test range
+
+sub test_in_range($) {
+  my $testnum = shift;
+  return 0 if $FirstTest && $testnum < $FirstTest;
+  return 0 if $LastTest &&  $testnum > $LastTest;
+  1;
+}
+
+sub start_test($$) {
+   my $testnum = shift;
+   if (test_in_range $testnum) {
+     $The_Title = shift;
+     $The_Out = sprintf "tests/%d.out", $testnum;
+     $The_Ref = sprintf "tests/%d.ref", $testnum;
+     open(SAVESTDOUT, ">&STDOUT") or die "Can't save STDOUT: $!\n";
+     open(STDOUT, ">$The_Out") or die "Can't open-write to $The_Out: $!\n";
+     printf "Test %d: %s\n", $testnum, $The_Title;
+     print $NUMBERS;
+   }
 }
 
 # $array_ref = read_file $filename;
@@ -59,7 +86,9 @@ sub read_file($) {
     \@lines;
 }
 
-sub end_test() {
+sub end_test($) {
+  my $testnum = shift;
+  if (test_in_range $testnum) {
     print $NUMBERS;
     close(STDOUT) or die "Can't close STDOUT: $!\n";
     open(STDOUT, ">&SAVESTDOUT") or die "Can't restore STDOUT from SAVESTDOUT: $!\n";
@@ -72,32 +101,39 @@ sub end_test() {
       rename($The_Out, $The_Ref);   # rename it
       ok( 1, "Created $The_Ref: $The_Title" );
     }
+  }
 }
 
-sub test($\@;$$$) {
-    my $title = shift;
-    my $array = shift;
+sub test($$$;$$$) {
+    my $testnum = shift;
 
-    start_test $title;
-    print_cols \@$array, @_;
-    end_test;
+    if (test_in_range $testnum) {
+      my $title = shift;
+      my $array = shift;
+      start_test $testnum, $title;
+      print_cols $array, @_;
+      end_test $testnum;
+      $Tests_Run++;
+    }
 }
 
 sub tests {
 
+    $Tests_Run = 0;
+
     @commands = sort qw( use server get put list set quit exit help lookup define save restore );
 
-    test 'Default arguments',					@commands;
-    test "Using 2 columns",					@commands, -2;
-    test "Using column width of 15",				@commands, 15;
-    test "Using total width of 40",				@commands, '', 40;
-    test "Using 2 columns in a total width of 40",		@commands, -2, 40;
+    test 1, 'Default arguments',				\@commands;
+    test 2, "Using 2 columns",					\@commands, -2;
+    test 3, "Using column width of 15",				\@commands, 15;
+    test 4, "Using total width of 40",				\@commands, '', 40;
+    test 5, "Using 2 columns in a total width of 40",		\@commands, -2, 40;
 
-    test "Using 3 columns in a total width of 40",		@commands, -3, 40;
-    test "Using 3 columns in a total width of 45",		@commands, -3, 45;
-    test "Using column width of 15 in a total width of 45",	@commands, 15, 45;
-    test "Using defaults with an indent of 1",			@commands,  0,  0, 1;
-    test "Using 2 columns with an indent of 2",			@commands, -2,  0, 2;
+    test 6, "Using 3 columns in a total width of 40",		\@commands, -3, 40;
+    test 7, "Using 3 columns in a total width of 45",		\@commands, -3, 45;
+    test 8, "Using column width of 15 in a total width of 45",	\@commands, 15, 45;
+    test 9, "Using defaults with an indent of 1",		\@commands,  0,  0, 1;
+    test 10, "Using 2 columns with an indent of 2",		\@commands, -2,  0, 2;
 
     # 10 tests
 
@@ -108,17 +144,17 @@ sub tests {
     @words = sort keys %words;
     undef %words;
 
-    test "200 words (from the GNU License)",			@words, '',  '', 1;
-    test "200 words in 2 columns",				@words, -2;
-    test "200 words with column width of 15",			@words, 15;
-    test "200 words in a total width of 40",			@words, '',  40;
-    test "200 words in 2 columns, total width 40",		@words, -2,  40;
+    test 11, "200 words (from the GNU License)",		\@words, '',  '', 1;
+    test 12, "200 words in 2 columns",				\@words, -2;
+    test 13, "200 words with column width of 15",		\@words, 15;
+    test 14, "200 words in a total width of 40",		\@words, '',  40;
+    test 15, "200 words in 2 columns, total width 40",		\@words, -2,  40;
 
-    test "200 words in 3 columns, total width 40",		@words, -3,  40;
-    test "200 words with column width 15, total width 45",	@words, -3,  45;
-    test "200 words with indent of 1",				@words,  0,   0, 1;
-    test "200 words in 2 columns with indent of 2",		@words, -2,   0, 2;
-    test "200 words in 5 columns, indent 3, total width 100",	@words, -5, 100, 3;
+    test 16, "200 words in 3 columns, total width 40",		\@words, -3,  40;
+    test 17, "200 words with column width 15, total width 45",	\@words, -3,  45;
+    test 18, "200 words with indent of 1",			\@words,  0,   0, 1;
+    test 19, "200 words in 2 columns with indent of 2",		\@words, -2,   0, 2;
+    test 20, "200 words in 5 columns, indent 3, total width 100",\@words, -5, 100, 3;
 
     # 20 tests
 
@@ -140,26 +176,40 @@ sub tests {
 	 NTDesktop_complete    games                 
 	);
 	
-    test "Complex words, indent 5",				    @words, '', '', 5;
-    test "Complex words, in one column, indent 5",		    @words, -1, '', 5;
-    test "Complex words, in two columns, indent 5",		    @words, -2, '', 5;
-    test "Complex words, in three columns, indent 5",		    @words, -3, '', 5;
-    test "Complex words, indent 5, total width 20",		    @words, '', 20, 5;
+    test 21, "Complex words, indent 5",					\@words, '', '', 5;
+    test 22, "Complex words, in one column, indent 5",			\@words, -1, '', 5;
+    test 23, "Complex words, in two columns, indent 5",			\@words, -2, '', 5;
+    test 24, "Complex words, in three columns, indent 5",		\@words, -3, '', 5;
+    test 25, "Complex words, indent 5, total width 20",			\@words, '', 20, 5;
 
-    test "Complex words, indent 5, total width 25",		    @words, '', 25, 5;
-    test "Complex words, indent 5, total width 40",		    @words, '', 40, 5;
-    test "Complex words, indent 4, total width 45",		    @words, '', 45, 4;
-    test "Complex words, indent 3, total width 50",		    @words, '', 50, 3;
-    test "Complex words, indent 1, total width 60",		    @words, '', 60, 1;
+    test 26, "Complex words, indent 5, total width 25",			\@words, '', 25, 5;
+    test 27, "Complex words, indent 5, total width 40",			\@words, '', 40, 5;
+    test 28, "Complex words, indent 4, total width 45",			\@words, '', 45, 4;
+    test 29, "Complex words, indent 3, total width 50",			\@words, '', 50, 3;
+    test 30, "Complex words, indent 1, total width 60",			\@words, '', 60, 1;
 
-    test "Complex words, indent 1, total width 80",		    @words, '', 70, 1;
-    test "Complex words, indent 1, col width 30",		    @words, 30, '', 1;
-    test "Complex words, indent 1, col width 40",		    @words, 40, '', 1;
-    test "Complex words, indent 1, col width 30, total width 90",   @words, 30, 90, 1;
-    test "Complex words, indent 1, col width 30, total width 120",  @words, 30, 120, 1;
-    test "Complex words, indent 1, col width 30, total width 121",  @words, 30, 121, 1;
+    test 31, "Complex words, indent 1, total width 80",			\@words, '', 70, 1;
+    test 32, "Complex words, indent 1, col width 30",			\@words, 30, '', 1;
+    test 33, "Complex words, indent 1, col width 40",			\@words, 40, '', 1;
+    test 34, "Complex words, indent 1, col width 30, total width 90",   \@words, 30, 90, 1;
+    test 35, "Complex words, indent 1, col width 30, total width 120",  \@words, 30, 120, 1;
+    test 36, "Complex words, indent 1, col width 30, total width 121",  \@words, 30, 121, 1;
 
-    # 35 tests
+    # 36 tests
+
+    @wordshash{@words} = @words;		# a hash of the special-case words
+    $wordshref = \%wordshash;
+    $wordsref = \@words;
+
+    # now test the arrayref, hash, and hashref use cases
+
+    test 37, "Complex words, indent 5, array ref",		    $wordsref, '', '', 5;
+    test 38, "Complex words, indent 5, hash",			   \%wordshash, '', '', 5;
+    test 39, "Complex words, indent 5, hash ref",		    $wordshref, '', '', 5;
+
+    # 39 tests
+
+    done_testing $Tests_Run;
 
 }
 
@@ -167,7 +217,10 @@ sub tests {
 # the tests and save the results in tests/*.ref.
 
 while ($_ = shift @ARGV) {
-    /^-n/ && $no_compare++;
+    /^-n(o-compare)?$/ && $no_compare++;
+    /^-h(elp)?$/       && usage;
+    /^-f(irst)?$/      && do { $FirstTest = 0 + shift(@ARGV); };
+    /^-l(ast)?$/       && do { $LastTest  = 0 + shift(@ARGV); };
 }
 
 if ($no_compare && !-d 'tests') {
@@ -178,4 +231,4 @@ tests;
 
 exit;
 
-# vim: sw=4 sts=4 ai
+# vim: set sw=4 sts=4 ai
