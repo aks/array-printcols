@@ -131,7 +131,7 @@ __END__
 
 =head1 NAME
 
-print_cols, format_cols - Print or format array elements in vertically sorted columns.
+Array::PrintCols - Print or format array elements in vertically sorted columns.
 
 =head1 SYNOPSIS
 
@@ -207,6 +207,10 @@ the real work.
 
     # print the formatted result data to the result file
     print RESULTFILE format_cols(\@result_data);
+
+=head1 REPOSITORY
+
+L<https://github.com/aks/array-printcols>
 
 =head1 AUTHOR
 

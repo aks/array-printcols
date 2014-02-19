@@ -1,0 +1,11 @@
+Revision history for Perl module Array::PrintCols
+
+2.5 2013-06-06
+    - Added github repo to pod
+    - Added github repo to metadata in Build.PL
+    - Added an abstract to the pod
+    - Added this file
+
+1.2 1995-12-02
+    - First release to CPAN
+

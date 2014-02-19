@@ -35,5 +35,10 @@ ABSTRACT
     requires	       => { 
       'Carp'	       => 0,
     },
+    meta_merge => {
+        resources => {
+            repository => 'https://github.com/aks/array-printcols'
+        }
+    },
   );
   $build->create_build_script;
