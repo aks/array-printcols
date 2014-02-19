@@ -208,6 +208,10 @@ the real work.
     # print the formatted result data to the result file
     print RESULTFILE format_cols(\@result_data);
 
+=head1 REPOSITORY
+
+L<https://github.com/aks/array-printcols>
+
 =head1 AUTHOR
 
 Copyright (C) 1996-2013  Alan K. Stebbens <aks@stebbens.org>
