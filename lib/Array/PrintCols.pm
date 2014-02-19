@@ -131,7 +131,7 @@ __END__
 
 =head1 NAME
 
-print_cols, format_cols - Print or format array elements in vertically sorted columns.
+Array::PrintCols - Print or format array elements in vertically sorted columns.
 
 =head1 SYNOPSIS
 
