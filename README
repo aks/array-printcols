@@ -1,4 +1,4 @@
-Array::PrintCols, version 2.4, is a Perl module which defines a
+Array::PrintCols, version 2.6, is a Perl module which defines a
 subroutine to print arrays of elements in alphabetically,
 vertically sorted columns.  Optional arguments can be given to
 control either the width or number of the columns, the total width
@@ -30,9 +30,9 @@ To install the software:
 
 or (the "old" way):
 
-	gunzip Array-PrintCols-2.4.tar.gz
-	tar xvf Array-PrintCols-2.4.tar
-	cd Array-PrintCols-2.4
+	gunzip Array-PrintCols-2.6.tar.gz
+	tar xvf Array-PrintCols-2.6.tar
+	cd Array-PrintCols-2.6
 	perl Makefile.PL
 	make
 	make install
@@ -43,4 +43,4 @@ The archives are available at the nearest CPAN site
 
 Contributions or improvements are welcome.
 _________________________________________
-Alan K. Stebbens       <aks@stebbens.org>    
+Alan K. Stebbens       <aks@stebbens.org>
