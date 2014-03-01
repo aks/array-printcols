@@ -1,611 +1,246 @@
 Test 20: 200 words in 5 columns, indent 3, total width 100
 12345678901234567890123456789012345678901234567890123456789012345678901234567890
-   0                                               find                                            
-   1                                               first                                           
-   10                                              fixed                                           
-   11                                              flow                                            
-   12                                              follow                                          
-   13                                              following                                       
-   14                                              for                                             
-   15                                              forbid                                          
-   16                                              force                                           
-   17                                              form                                            
-   1996                                            format                                          
-   2                                               found                                           
-   20                                              free                                            
-   2007                                            freedom                                         
-   28                                              freedoms                                        
-   29                                              from                                            
-   3                                               fulfilling                                      
-   30                                              full                                            
-   4                                               functioning                                     
-   5                                               fundamentally                                   
-   6                                               further                                         
-   60                                              future                                          
-   6b                                              general                                         
-   6d                                              general-purpose                                 
-   7                                               generally                                       
-   8                                               generate                                        
-   9                                               get                                             
-   A                                               give                                            
-   ABOVE                                           given                                           
-   ABSOLUTELY                                      gives                                           
-   ADVISED                                         giving                                          
-   AGREED                                          governed                                        
-   ALL                                             grant                                           
-   AND                                             granted                                         
-   AND/OR                                          grants                                          
-   ANY                                             gratis                                          
-   APPLICABLE                                      greatest                                        
-   ARISING                                         guarantee                                       
-   AS                                              had                                             
-   ASSUME                                          has                                             
-   Acceptance                                      have                                            
-   Access                                          having                                          
-   Additional                                      hereafter                                       
-   Affero                                          holder                                          
-   All                                             holders                                         
-   Also                                            hope                                            
-   An                                              hosts                                           
-   Ancillary                                       household                                       
-   And                                             how                                             
-   Anti-Circumvention                              however                                         
-   Any                                             http://fsf.org                                  
-   Apply                                           http://www.gnu.org/licenses                     
-   Appropriate                                     http://www.gnu.org/philosophy/why-not-lgpl.html 
-   Automatic                                       hypothetical                                    
-   BE                                              idea                                            
-   BEEN                                            identifiable                                    
-   BEING                                           if                                              
-   BUT                                             implement                                       
-   BY                                              implementation                                  
-   Basic                                           implied                                         
-   But                                             import                                          
-   By                                              importing                                       
-   C                                               impose                                          
-   CONDITIONS                                      imposed                                         
-   CONSEQUENTIAL                                   in                                              
-   CONVEYS                                         include                                         
-   COPYRIGHT                                       included                                        
-   CORRECTION                                      includes                                        
-   COST                                            including                                       
-   Code                                            incompatible                                    
-   Component                                       incorporating                                   
-   Convey                                          incorporation                                   
-   Conveying                                       indemnification                                 
-   Copies                                          independent                                     
-   Copyright                                       indicate                                        
-   Corresponding                                   indicating                                      
-   DAMAGES                                         individual                                      
-   DATA                                            individuals                                     
-   DEFECTIVE                                       industrial                                      
-   December                                        inform                                          
-   Declining                                       information                                     
-   Definitions                                     infringe                                        
-   Developers                                      infringed                                       
-   Disclaimer                                      infringement                                    
-   Disclaiming                                     initiate                                        
-   Downstream                                      inside                                          
-   EITHER                                          install                                         
-   END                                             installed                                       
-   ENTIRE                                          instead                                         
-   EVEN                                            intact                                          
-   EVENT                                           intended                                        
-   EXCEPT                                          intention                                       
-   EXPRESSED                                       interaction                                     
-   EXTENT                                          interactive                                     
-   Each                                            interchange                                     
-   Everyone                                        interest                                        
-   FAILURE                                         interface                                       
-   FITNESS                                         interfaces                                      
-   FOR                                             interfered                                      
-   Finally                                         interpreter                                     
-   For                                             intimate                                        
-   Forms                                           into                                            
-   Foundation                                      invalidate                                      
-   Free                                            irrevocable                                     
-   Freedom                                         is                                              
-   From                                            it                                              
-   GENERAL                                         item                                            
-   GNU                                             its                                             
-   GPL                                             itself                                          
-   GPL-3.0                                         keep                                            
-   GUI                                             kernel                                          
-   General                                         key                                             
-   HAS                                             keys                                            
-   HOLDER                                          kind                                            
-   HOLDERS                                         kinds                                           
-   Having                                          know                                            
-   How                                             knowingly                                       
-   However                                         knowledge                                       
-   IF                                              language                                        
-   IMPLIED                                         larger                                          
-   IN                                              later                                           
-   INABILITY                                       law                                             
-   INACCURATE                                      laws                                            
-   INCIDENTAL                                      lawsuit                                         
-   INCLUDING                                       least                                           
-   IS                                              legal                                           
-   If                                              liability                                       
-   In                                              liable                                          
-   Inc                                             libraries                                       
-   Inclusion                                       library                                         
-   Information                                     license                                         
-   Installation                                    licensed                                        
-   Interface                                       licensee                                        
-   Interpretation                                  licensees                                       
-   It                                              licenses                                        
-   June                                            licensors                                       
-   KIND                                            like                                            
-   Knowingly                                       likewise                                        
-   LAW                                             limit                                           
-   LIABLE                                          limitation                                      
-   LICENSE                                         limiting                                        
-   LIMITED                                         line                                            
-   LOSS                                            link                                            
-   LOSSES                                          linked                                          
-   Later                                           linking                                         
-   Law                                             list                                            
-   Legal                                           litigation                                      
-   Lesser                                          local                                           
-   Liability                                       long                                            
-   Libraries                                       machine-readable                                
-   Library                                         made                                            
-   License                                         mail                                            
-   Licensees                                       maintain                                        
-   Licenses                                        major                                           
-   Licensing                                       make                                            
-   Limitation                                      makes                                           
-   Limiting                                        making                                          
-   MERCHANTABILITY                                 manner                                          
-   MODIFIES                                        manufacturer                                    
-   Major                                           marked                                          
-   March                                           marks                                           
-   Mere                                            masks                                           
-   Modified                                        material                                        
-   Moreover                                        materially                                      
-   NECESSARY                                       may                                             
-   NO                                              meaning                                         
-   NOT                                             means                                           
-   New                                             measure                                         
-   No                                              measures                                        
-   Non-Source                                      medium                                          
-   Not                                             meet                                            
-   Nothing                                         meets                                           
-   Notices                                         menu                                            
-   Notwithstanding                                 merging                                         
-   OF                                              met                                             
-   OPERATE                                         methods                                         
-   OR                                              might                                           
-   OTHER                                           misrepresentation                               
-   OTHERWISE                                       mode                                            
-   OUT                                             model                                           
-   Object                                          modification                                    
-   Of                                              modifications                                   
-   Others                                          modified                                        
-   Our                                             modifies                                        
-   PARTICULAR                                      modify                                          
-   PARTIES                                         modifying                                       
-   PARTY                                           more                                            
-   PERFORMANCE                                     most                                            
-   PERMITTED                                       must                                            
-   POSSIBILITY                                     name                                            
-   PROGRAM                                         names                                           
-   PROGRAMS                                        nature                                          
-   PROVE                                           necessary                                       
-   PROVIDE                                         need                                            
-   PUBLIC                                          needed                                          
-   PURPOSE                                         neither                                         
-   Patents                                         network                                         
-   Permissions                                     new                                             
-   Preamble                                        next                                            
-   Product                                         no                                              
-   Program                                         non-consumer                                    
-   Program's                                       non-exclusive                                   
-   Programs                                        non-exercise                                    
-   Prohibiting                                     non-free                                        
-   Propagation                                     non-permissive                                  
-   Protecting                                      non-source                                      
-   Public                                          noncommercially                                 
-   QUALITY                                         nor                                             
-   RENDERED                                        normal                                          
-   REPAIR                                          normally                                        
-   REQUIRED                                        not                                             
-   RISK                                            nothing                                         
-   ROM                                             notice                                          
-   Recipients                                      notices                                         
-   Regardless                                      notifies                                        
-   Required                                        notify                                          
-   Requiring                                       number                                          
-   Revised                                         numbered                                        
-   Rights                                          object                                          
-   SERVICING                                       obligate                                        
-   SHOULD                                          obligated                                       
-   SPECIAL                                         obligations                                     
-   STATED                                          occasionally                                    
-   SUCH                                            occurring                                       
-   SUSTAINED                                       occurs                                          
-   Sections                                        of                                              
-   See                                             offer                                           
-   Software                                        offered                                         
-   Some                                            offering                                        
-   Source                                          official                                        
-   Standard                                        on                                              
-   States                                          one                                             
-   Sublicensing                                    only                                            
-   Such                                            operated                                        
-   Surrender                                       operating                                       
-   System                                          operation                                       
-   TERMS                                           option                                          
-   THE                                             options                                         
-   THERE                                           or                                              
-   THIRD                                           order                                           
-   TO                                              organization                                    
-   Termination                                     organizations                                   
-   Terms                                           origin                                          
-   The                                             original                                        
-   Therefore                                       other                                           
-   These                                           others                                          
-   This                                            otherwise                                       
-   Those                                           our                                             
-   To                                              output                                          
-   UNLESS                                          outside                                         
-   USE                                             own                                             
-   Use                                             owned                                           
-   User                                            packaged                                        
-   Users                                           packaging                                       
-   Verbatim                                        paper                                           
-   Version                                         paragraph                                       
-   Versions                                        paragraphs                                      
-   WARRANTIES                                      part                                            
-   WARRANTY                                        particular                                      
-   WHEN                                            parties                                         
-   WHO                                             parts                                           
-   WILL                                            party                                           
-   WIPO                                            party's                                         
-   WITH                                            pass                                            
-   WITHOUT                                         password                                        
-   WRITING                                         patent                                          
-   Warranty                                        patents                                         
-   We                                              pattern                                         
-   When                                            payment                                         
-   YOU                                             peer-to-peer                                    
-   You                                             peers                                           
-   Your                                            performing                                      
-   a                                               permanently                                     
-   ability                                         permission                                      
-   about                                           permissions                                     
-   above                                           permissive                                      
-   absence                                         permit                                          
-   absolute                                        permits                                         
-   abuse                                           permitted                                       
-   accept                                          perpetuity                                      
-   acceptance                                      personal                                        
-   access                                          pertinent                                       
-   accessible                                      physical                                        
-   accompanied                                     physically                                      
-   accompanies                                     pieces                                          
-   accord                                          place                                           
-   according                                       please                                          
-   achieve                                         plus                                            
-   acknowledges                                    pointer                                         
-   acquired                                        portion                                         
-   across                                          possesses                                       
-   actions                                         possession                                      
-   activities                                      possible                                        
-   activity                                        power                                           
-   actual                                          practical                                       
-   actually                                        practice                                        
-   adapt                                           precise                                         
-   add                                             precisely                                       
-   added                                           predecessor                                     
-   additional                                      preferred                                       
-   address                                         present                                         
-   addressed                                       presents                                        
-   adopted                                         preservation                                    
-   adversely                                       prevent                                         
-   affects                                         prevented                                       
-   affirmed                                        previous                                        
-   affirms                                         price                                           
-   after                                           primarily                                       
-   against                                         prior                                           
-   aggregate                                       private                                         
-   agree                                           problems                                        
-   agreement                                       procedures                                      
-   aim                                             procuring                                       
-   all                                             produce                                         
-   alleging                                        product                                         
-   allow                                           products                                        
-   allowed                                         program                                         
-   along                                           program's                                       
-   already                                         program--to                                     
-   also                                            programmer                                      
-   alternative                                     programming                                     
-   although                                        programs                                        
-   among                                           prohibit                                        
-   an                                              prohibiting                                     
-   and                                             prohibits                                       
-   and/or                                          prominent                                       
-   any                                             prominently                                     
-   anyone                                          propagate                                       
-   anything                                        propagating                                     
-   applicable                                      propagation                                     
-   applications                                    property                                        
-   applied                                         proprietary                                     
-   applies                                         protect                                         
-   apply                                           protecting                                      
-   appropriate                                     protection                                      
-   appropriately                                   protocols                                       
-   approximates                                    provide                                         
-   are                                             provided                                        
-   area                                            provision                                       
-   arise                                           provisionally                                   
-   arrange                                         proxy                                           
-   arrangement                                     proxy's                                         
-   article                                         public                                          
-   as                                              publicity                                       
-   asking                                          publicly                                        
-   assert                                          publish                                         
-   assets                                          published                                       
-   associated                                      purpose                                         
-   assumption                                      purposes                                        
-   assumptions                                     pursuant                                        
-   assures                                         qualify                                         
-   at                                              read                                            
-   attach                                          readily                                         
-   attempt                                         reading                                         
-   attributed                                      ready                                           
-   attributions                                    reason                                          
-   author                                          reasonable                                      
-   authorization                                   receipt                                         
-   authorized                                      receive                                         
-   authorizes                                      received                                        
-   authorizing                                     receives                                        
-   authors                                         receiving                                       
-   automatically                                   recipient                                       
-   available                                       recipient's                                     
-   avoid                                           recipients                                      
-   away                                            recognized                                      
-   b                                               redistribute                                    
-   based                                           referring                                       
-   be                                              refers                                          
-   because                                         refrain                                         
-   been                                            regard                                          
-   behalf                                          regardless                                      
-   being                                           regenerate                                      
-   believe                                         reinstated                                      
-   below                                           relationship                                    
-   benefit                                         released                                        
-   best                                            relevant                                        
-   between                                         relicensing                                     
-   beyond                                          relying                                         
-   body                                            remain                                          
-   both                                            remains                                         
-   box                                             removal                                         
-   brief                                           remove                                          
-   business                                        render                                          
-   but                                             represent                                       
-   by                                              require                                         
-   c                                               required                                        
-   called                                          requirement                                     
-   can                                             requirements                                    
-   cannot                                          requires                                        
-   carry                                           requiring                                       
-   case                                            resolved                                        
-   cases                                           respect                                         
-   cause                                           responsibilities                                
-   cease                                           responsible                                     
-   certain                                         restrict                                        
-   cessation                                       restricting                                     
-   change                                          restriction                                     
-   changed                                         restrictions                                    
-   changing                                        result                                          
-   characterized                                   resulting                                       
-   charge                                          results                                         
-   choose                                          retains                                         
-   choosing                                        return                                          
-   circumstances                                   reviewing                                       
-   circumvention                                   revised                                         
-   civil                                           right                                           
-   claim                                           rights                                          
-   claims                                          royalty                                         
-   class                                           royalty-free                                    
-   clear                                           rules                                           
-   clearly                                         run                                             
-   closely                                         running                                         
-   code                                            runs                                            
-   collect                                         safest                                          
-   combination                                     sake                                            
-   combine                                         sale                                            
-   combined                                        same                                            
-   comes                                           satisfy                                         
-   commands                                        saying                                          
-   commercial                                      school                                          
-   commitment                                      scope                                           
-   common                                          scripts                                         
-   communication                                   secondarily                                     
-   compilation                                     section                                         
-   compilation's                                   sections                                        
-   compilations                                    see                                             
-   compiler                                        sell                                            
-   compliance                                      selling                                         
-   comply                                          semiconductor                                   
-   component                                       separable                                       
-   computer                                        separate                                        
-   computers                                       separately                                      
-   concerning                                      server                                          
-   concerns                                        serves                                          
-   conditioned                                     service                                         
-   conditions                                      shall                                           
-   connection                                      share                                           
-   consequence                                     shared                                          
-   consider                                        short                                           
-   considered                                      should                                          
-   consistent                                      show                                            
-   conspicuously                                   sign                                            
-   constantly                                      significant                                     
-   constitutes                                     similar                                         
-   construed                                       simultaneously                                  
-   consumer                                        single                                          
-   contact                                         so                                              
-   contain                                         software                                        
-   containing                                      sold                                            
-   contains                                        sole                                            
-   content                                         solely                                          
-   contents                                        some                                            
-   context                                         source                                          
-   continue                                        spare                                           
-   continued                                       speak                                           
-   contractual                                     special                                         
-   contradict                                      specific                                        
-   contrast                                        specifically                                    
-   contributor                                     specified                                       
-   contributor's                                   specifies                                       
-   control                                         specify                                         
-   controlled                                      spirit                                          
-   convenient                                      stand                                           
-   convey                                          standard                                        
-   conveyance                                      standards                                       
-   conveyed                                        start                                           
-   conveying                                       starts                                          
-   conveys                                         state                                           
-   copies                                          stated                                          
-   copy                                            statement                                       
-   copying                                         stating                                         
-   copyleft                                        status                                          
-   copyright                                       steps                                           
-   copyright-like                                  storage                                         
-   copyrightable                                   subdividing                                     
-   copyrighted                                     subject                                         
-   cost                                            sublicenses                                     
-   could                                           subprograms                                     
-   counterclaim                                    subroutine                                      
-   countries                                       subsection                                      
-   country                                         substantial                                     
-   course                                          substantially                                   
-   court                                           such                                            
-   courts                                          sue                                             
-   covenant                                        suffice                                         
-   coverage                                        supplement                                      
-   covered                                         support                                         
-   criterion                                       supports                                        
-   cross-claim                                     sure                                            
-   cure                                            surrender                                       
-   customarily                                     survive                                         
-   customer                                        system                                          
-   d                                               systematic                                      
-   danger                                          take                                            
-   data                                            tangible                                        
-   date                                            technological                                   
-   days                                            tells                                           
-   decide                                          term                                            
-   deemed                                          terminal                                        
-   defenses                                        terminate                                       
-   defined                                         terminated                                      
-   definition                                      terminates                                      
-   denied                                          terms                                           
-   denominated                                     than                                            
-   deny                                            that                                            
-   denying                                         the                                             
-   deprive                                         their                                           
-   designated                                      them                                            
-   designed                                        then                                            
-   detail                                          there                                           
-   details                                         therefore                                       
-   determining                                     these                                           
-   develop                                         they                                            
-   developers                                      things                                          
-   development                                     third                                           
-   devices                                         this                                            
-   differ                                          those                                           
-   different                                       though                                          
-   differently                                     threatened                                      
-   direction                                       three                                           
-   directions                                      through                                         
-   directly                                        thus                                            
-   disclaim                                        time                                            
-   disclaimer                                      to                                              
-   discriminatory                                  too                                             
-   display                                         tools                                           
-   displayed                                       trade                                           
-   displays                                        trademark                                       
-   distinguishing                                  trademarks                                      
-   distribute                                      transaction                                     
-   distributed                                     transfer                                        
-   distributing                                    transferred                                     
-   distribution                                    transferring                                    
-   do                                              transmission                                    
-   document                                        treated                                         
-   documented                                      treaty                                          
-   does                                            two                                             
-   domains                                         type                                            
-   doubtful                                        typical                                         
-   downstream                                      unacceptable                                    
-   durable                                         under                                           
-   dwelling                                        unless                                          
-   dynamically                                     unlimited                                       
-   e                                               unmodified                                      
-   each                                            unnecessary                                     
-   earlier                                         unpacking                                       
-   effect                                          until                                           
-   effected                                        updates                                         
-   effective                                       use                                             
-   effectively                                     used                                            
-   efforts                                         useful                                          
-   either                                          user                                            
-   electronic                                      users                                           
-   embodied                                        uses                                            
-   employer                                        using                                           
-   enable                                          valid                                           
-   enables                                         verbatim                                        
-   enforce                                         version                                         
-   enforcing                                       versions                                        
-   ensure                                          view                                            
-   entered                                         violates                                        
-   entire                                          violation                                       
-   entirely                                        visible                                         
-   entity                                          void                                            
-   equivalent                                      volume                                          
-   erroneously                                     w                                               
-   essential                                       waive                                           
-   even                                            waiver                                          
-   ever                                            want                                            
-   every                                           warranties                                      
-   everyone                                        warranty                                        
-   exact                                           was                                             
-   example                                         way                                             
-   except                                          ways                                            
-   exceptions                                      we                                              
-   excluded                                        welcome                                         
-   excluding                                       well                                            
-   exclusion                                       were                                            
-   exclusively                                     what                                            
-   excuse                                          whatever                                        
-   executable                                      when                                            
-   execute                                         where                                           
-   executing                                       whether                                         
-   exercise                                        which                                           
-   exercising                                      who                                             
-   expected                                        whole                                           
-   expects                                         whom                                            
-   explains                                        whose                                           
-   explicitly                                      widely                                          
-   express                                         will                                            
-   expressly                                       window                                          
-   extend                                          wish                                            
-   extended                                        with                                            
-   extensions                                      within                                          
-   extent                                          without                                         
-   f                                               work                                            
-   facilities                                      work's                                          
-   fails                                           working                                         
-   fair                                            works                                           
-   family                                          worldwide                                       
-   fashion                                         would                                           
-   favor                                           written                                         
-   feature                                         year                                            
-   fee                                             years                                           
-   file                                            you                                             
-   files                                           your                                            
-   finally                                         yourself                                        
+   0                  The                coverage           least              referring          
+   1                  Therefore          covered            legal              refers             
+   10                 These              criterion          liability          refrain            
+   11                 This               cross-claim        liable             regard             
+   12                 Those              cure               libraries          regardless         
+   13                 To                 customarily        library            regenerate         
+   14                 UNLESS             customer           license            reinstated         
+   15                 USE                d                  licensed           relationship       
+   16                 Use                danger             licensee           released           
+   17                 User               data               licensees          relevant           
+   1996               Users              date               licenses           relicensing        
+   2                  Verbatim           days               licensors          relying            
+   20                 Version            decide             like               remain             
+   2007               Versions           deemed             likewise           remains            
+   28                 WARRANTIES         defenses           limit              removal            
+   29                 WARRANTY           defined            limitation         remove             
+   3                  WHEN               definition         limiting           render             
+   30                 WHO                denied             line               represent          
+   4                  WILL               denominated        link               require            
+   5                  WIPO               deny               linked             required           
+   6                  WITH               denying            linking            requirement        
+   60                 WITHOUT            deprive            list               requirements       
+   6b                 WRITING            designated         litigation         requires           
+   6d                 Warranty           designed           local              requiring          
+   7                  We                 detail             long               resolved           
+   8                  When               details            machine-readable   respect            
+   9                  YOU                determining        made               responsibilities   
+   A                  You                develop            mail               responsible        
+   ABOVE              Your               developers         maintain           restrict           
+   ABSOLUTELY         a                  development        major              restricting        
+   ADVISED            ability            devices            make               restriction        
+   AGREED             about              differ             makes              restrictions       
+   ALL                above              different          making             result             
+   AND                absence            differently        manner             resulting          
+   AND/OR             absolute           direction          manufacturer       results            
+   ANY                abuse              directions         marked             retains            
+   APPLICABLE         accept             directly           marks              return             
+   ARISING            acceptance         disclaim           masks              reviewing          
+   AS                 access             disclaimer         material           revised            
+   ASSUME             accessible         discriminatory     materially         right              
+   Acceptance         accompanied        display            may                rights             
+   Access             accompanies        displayed          meaning            royalty            
+   Additional         accord             displays           means              royalty-free       
+   Affero             according          distinguishing     measure            rules              
+   All                achieve            distribute         measures           run                
+   Also               acknowledges       distributed        medium             running            
+   An                 acquired           distributing       meet               runs               
+   Ancillary          across             distribution       meets              safest             
+   And                actions            do                 menu               sake               
+   Anti-Circumvention activities         document           merging            sale               
+   Any                activity           documented         met                same               
+   Apply              actual             does               methods            satisfy            
+   Appropriate        actually           domains            might              saying             
+   Automatic          adapt              doubtful           misrepresentation  school             
+   BE                 add                downstream         mode               scope              
+   BEEN               added              durable            model              scripts            
+   BEING              additional         dwelling           modification       secondarily        
+   BUT                address            dynamically        modifications      section            
+   BY                 addressed          e                  modified           sections           
+   Basic              adopted            each               modifies           see                
+   But                adversely          earlier            modify             sell               
+   By                 affects            effect             modifying          selling            
+   C                  affirmed           effected           more               semiconductor      
+   CONDITIONS         affirms            effective          most               separable          
+   CONSEQUENTIAL      after              effectively        must               separate           
+   CONVEYS            against            efforts            name               separately         
+   COPYRIGHT          aggregate          either             names              server             
+   CORRECTION         agree              electronic         nature             serves             
+   COST               agreement          embodied           necessary          service            
+   Code               aim                employer           need               shall              
+   Component          all                enable             needed             share              
+   Convey             alleging           enables            neither            shared             
+   Conveying          allow              enforce            network            short              
+   Copies             allowed            enforcing          new                should             
+   Copyright          along              ensure             next               show               
+   Corresponding      already            entered            no                 sign               
+   DAMAGES            also               entire             non-consumer       significant        
+   DATA               alternative        entirely           non-exclusive      similar            
+   DEFECTIVE          although           entity             non-exercise       simultaneously     
+   December           among              equivalent         non-free           single             
+   Declining          an                 erroneously        non-permissive     so                 
+   Definitions        and                essential          non-source         software           
+   Developers         and/or             even               noncommercially    sold               
+   Disclaimer         any                ever               nor                sole               
+   Disclaiming        anyone             every              normal             solely             
+   Downstream         anything           everyone           normally           some               
+   EITHER             applicable         exact              not                source             
+   END                applications       example            nothing            spare              
+   ENTIRE             applied            except             notice             speak              
+   EVEN               applies            exceptions         notices            special            
+   EVENT              apply              excluded           notifies           specific           
+   EXCEPT             appropriate        excluding          notify             specifically       
+   EXPRESSED          appropriately      exclusion          number             specified          
+   EXTENT             approximates       exclusively        numbered           specifies          
+   Each               are                excuse             object             specify            
+   Everyone           area               executable         obligate           spirit             
+   FAILURE            arise              execute            obligated          stand              
+   FITNESS            arrange            executing          obligations        standard           
+   FOR                arrangement        exercise           occasionally       standards          
+   Finally            article            exercising         occurring          start              
+   For                as                 expected           occurs             starts             
+   Forms              asking             expects            of                 state              
+   Foundation         assert             explains           offer              stated             
+   Free               assets             explicitly         offered            statement          
+   Freedom            associated         express            offering           stating            
+   From               assumption         expressly          official           status             
+   GENERAL            assumptions        extend             on                 steps              
+   GNU                assures            extended           one                storage            
+   GPL                at                 extensions         only               subdividing        
+   GPL-3.0            attach             extent             operated           subject            
+   GUI                attempt            f                  operating          sublicenses        
+   General            attributed         facilities         operation          subprograms        
+   HAS                attributions       fails              option             subroutine         
+   HOLDER             author             fair               options            subsection         
+   HOLDERS            authorization      family             or                 substantial        
+   Having             authorized         fashion            order              substantially      
+   How                authorizes         favor              organization       such               
+   However            authorizing        feature            organizations      sue                
+   IF                 authors            fee                origin             suffice            
+   IMPLIED            automatically      file               original           supplement         
+   IN                 available          files              other              support            
+   INABILITY          avoid              finally            others             supports           
+   INACCURATE         away               find               otherwise          sure               
+   INCIDENTAL         b                  first              our                surrender          
+   INCLUDING          based              fixed              output             survive            
+   IS                 be                 flow               outside            system             
+   If                 because            follow             own                systematic         
+   In                 been               following          owned              take               
+   Inc                behalf             for                packaged           tangible           
+   Inclusion          being              forbid             packaging          technological      
+   Information        believe            force              paper              tells              
+   Installation       below              form               paragraph          term               
+   Interface          benefit            format             paragraphs         terminal           
+   Interpretation     best               found              part               terminate          
+   It                 between            free               particular         terminated         
+   June               beyond             freedom            parties            terminates         
+   KIND               body               freedoms           parts              terms              
+   Knowingly          both               from               party              than               
+   LAW                box                fulfilling         party's            that               
+   LIABLE             brief              full               pass               the                
+   LICENSE            business           functioning        password           their              
+   LIMITED            but                fundamentally      patent             them               
+   LOSS               by                 further            patents            then               
+   LOSSES             c                  future             pattern            there              
+   Later              called             general            payment            therefore          
+   Law                can                general-purpose    peer-to-peer       these              
+   Legal              cannot             generally          peers              they               
+   Lesser             carry              generate           performing         things             
+   Liability          case               get                permanently        third              
+   Libraries          cases              give               permission         this               
+   Library            cause              given              permissions        those              
+   License            cease              gives              permissive         though             
+   Licensees          certain            giving             permit             threatened         
+   Licenses           cessation          governed           permits            three              
+   Licensing          change             grant              permitted          through            
+   Limitation         changed            granted            perpetuity         thus               
+   Limiting           changing           grants             personal           time               
+   MERCHANTABILITY    characterized      gratis             pertinent          to                 
+   MODIFIES           charge             greatest           physical           too                
+   Major              choose             guarantee          physically         tools              
+   March              choosing           had                pieces             trade              
+   Mere               circumstances      has                place              trademark          
+   Modified           circumvention      have               please             trademarks         
+   Moreover           civil              having             plus               transaction        
+   NECESSARY          claim              hereafter          pointer            transfer           
+   NO                 claims             holder             portion            transferred        
+   NOT                class              holders            possesses          transferring       
+   New                clear              hope               possession         transmission       
+   No                 clearly            hosts              possible           treated            
+   Non-Source         closely            household          power              treaty             
+   Not                code               how                practical          two                
+   Nothing            collect            however            practice           type               
+   Notices            combination        hypothetical       precise            typical            
+   Notwithstanding    combine            idea               precisely          unacceptable       
+   OF                 combined           identifiable       predecessor        under              
+   OPERATE            comes              if                 preferred          unless             
+   OR                 commands           implement          present            unlimited          
+   OTHER              commercial         implementation     presents           unmodified         
+   OTHERWISE          commitment         implied            preservation       unnecessary        
+   OUT                common             import             prevent            unpacking          
+   Object             communication      importing          prevented          until              
+   Of                 compilation        impose             previous           updates            
+   Others             compilation's      imposed            price              use                
+   Our                compilations       in                 primarily          used               
+   PARTICULAR         compiler           include            prior              useful             
+   PARTIES            compliance         included           private            user               
+   PARTY              comply             includes           problems           users              
+   PERFORMANCE        component          including          procedures         uses               
+   PERMITTED          computer           incompatible       procuring          using              
+   POSSIBILITY        computers          incorporating      produce            valid              
+   PROGRAM            concerning         incorporation      product            verbatim           
+   PROGRAMS           concerns           indemnification    products           version            
+   PROVE              conditioned        independent        program            versions           
+   PROVIDE            conditions         indicate           program's          view               
+   PUBLIC             connection         indicating         program--to        violates           
+   PURPOSE            consequence        individual         programmer         violation          
+   Patents            consider           individuals        programming        visible            
+   Permissions        considered         industrial         programs           void               
+   Preamble           consistent         inform             prohibit           volume             
+   Product            conspicuously      information        prohibiting        w                  
+   Program            constantly         infringe           prohibits          waive              
+   Program's          constitutes        infringed          prominent          waiver             
+   Programs           construed          infringement       prominently        want               
+   Prohibiting        consumer           initiate           propagate          warranties         
+   Propagation        contact            inside             propagating        warranty           
+   Protecting         contain            install            propagation        was                
+   Public             containing         installed          property           way                
+   QUALITY            contains           instead            proprietary        ways               
+   RENDERED           content            intact             protect            we                 
+   REPAIR             contents           intended           protecting         welcome            
+   REQUIRED           context            intention          protection         well               
+   RISK               continue           interaction        protocols          were               
+   ROM                continued          interactive        provide            what               
+   Recipients         contractual        interchange        provided           whatever           
+   Regardless         contradict         interest           provision          when               
+   Required           contrast           interface          provisionally      where              
+   Requiring          contributor        interfaces         proxy              whether            
+   Revised            contributor's      interfered         proxy's            which              
+   Rights             control            interpreter        public             who                
+   SERVICING          controlled         intimate           publicity          whole              
+   SHOULD             convenient         into               publicly           whom               
+   SPECIAL            convey             invalidate         publish            whose              
+   STATED             conveyance         irrevocable        published          widely             
+   SUCH               conveyed           is                 purpose            will               
+   SUSTAINED          conveying          it                 purposes           window             
+   Sections           conveys            item               pursuant           wish               
+   See                copies             its                qualify            with               
+   Software           copy               itself             read               within             
+   Some               copying            keep               readily            without            
+   Source             copyleft           kernel             reading            work               
+   Standard           copyright          key                ready              work's             
+   States             copyright-like     keys               reason             working            
+   Sublicensing       copyrightable      kind               reasonable         works              
+   Such               copyrighted        kinds              receipt            worldwide          
+   Surrender          cost               know               receive            would              
+   System             could              knowingly          received           written            
+   TERMS              counterclaim       knowledge          receives           year               
+   THE                countries          language           receiving          years              
+   THERE              country            larger             recipient          you                
+   THIRD              course             later              recipient's        your               
+   TO                 court              law                recipients         yourself           
+   Termination        courts             laws               recognized         
+   Terms              covenant           lawsuit            redistribute       
 12345678901234567890123456789012345678901234567890123456789012345678901234567890

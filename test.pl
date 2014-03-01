@@ -33,7 +33,7 @@ Run various tests on print_cols.
 
 Options:
   -h        This help
-  -n	    Don't do comparisons; generate all the reference files
+  -n	    Don't compare, just generate all the reference files
   -f FIRST  Run tests beginning with FIRST
   -l LAST   Run tests up to LAST
 EOF
@@ -139,6 +139,7 @@ sub tests {
 
     # Build a big array of words
     @words = split ' ',`cat GNU-LICENSE`;
+    @words = grep !/http:/, @words;   # filter out overly long http refs
     foreach ( @words) { s/\W+$//; s/^\W+//; }
     @words{@words} = @words;
     @words = sort keys %words;
@@ -161,19 +162,19 @@ sub tests {
     # From: Wayne Scott <wscott@ichips.intel.com>
     # These failed in the sort algorith of version 1.3 -- fixed in 2.0.
     @words = sort qw(
-	 3D                    NTDesktop_long        memory                
-	 FSPEC_complete        NTDesktop_short       photoshop             
-	 FSPEC_long            NT_other_complete     sys32_win95_complete  
-	 FSPEC_short           NT_other_long         sys32_win95_long      
-	 ISPEC_complete        NT_other_short        sys32_win95_short     
-	 ISPEC_long            SysNT_complete        ubench                
-	 ISPEC_short           SysNT_long            vox                   
-	 LargeApps             SysNT_short           wmt_ubench            
-	 MMx_complete          Win95Desktop_complete xmark96_complete      
-	 MMx_long              Win95Desktop_long     xmark96_long          
-	 MMx_short             Win95Desktop_short    xmark96_short         
-	 Multimedia_complete   front_end             
-	 NTDesktop_complete    games                 
+	 3D                    NTDesktop_long        memory
+	 FSPEC_complete        NTDesktop_short       photoshop
+	 FSPEC_long            NT_other_complete     sys32_win95_complete
+	 FSPEC_short           NT_other_long         sys32_win95_long
+	 ISPEC_complete        NT_other_short        sys32_win95_short
+	 ISPEC_long            SysNT_complete        ubench
+	 ISPEC_short           SysNT_long            vox
+	 LargeApps             SysNT_short           wmt_ubench
+	 MMx_complete          Win95Desktop_complete xmark96_complete
+	 MMx_long              Win95Desktop_long     xmark96_long
+	 MMx_short             Win95Desktop_short    xmark96_short
+	 Multimedia_complete   front_end
+	 NTDesktop_complete    games
 	);
 	
     test 21, "Complex words, indent 5",					\@words, '', '', 5;

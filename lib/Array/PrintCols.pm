@@ -1,6 +1,6 @@
 # Array::PrintCols.pm
 #
-#    Copyright (C) 1996-2013  Alan K. Stebbens <aks@stebbens.org>
+#    Copyright (C) 1996-2014  Alan K. Stebbens <aks@stebbens.org>
 #
 #    This program is free software: you can redistribute it and/or modify
 #    it under the terms of the GNU General Public License as published by
@@ -20,7 +20,7 @@
 
 package Array::PrintCols;
 
-$VERSION = '2.5';
+$VERSION = '2.6';
 
 require 5.001;
 
@@ -214,7 +214,7 @@ L<https://github.com/aks/array-printcols>
 
 =head1 AUTHOR
 
-Copyright (C) 1996-2013  Alan K. Stebbens <aks@stebbens.org>
+Copyright (C) 1996-2014  Alan K. Stebbens <aks@stebbens.org>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
